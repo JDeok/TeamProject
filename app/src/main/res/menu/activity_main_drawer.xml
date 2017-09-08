@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity"
+            android:title="봉사 활동" />
+        <item
+            android:id="@+id/arbeit"
+            android:title="아르바이트" />
+        <item
+            android:id="@+id/major"
+            android:title="스터디" >
+
+        </item>
+
+        <item android:title="학과">
+            <menu>
+                <item
+                    android:id="@+id/comIn"
+                    android:title="컴퓨터정보과" />
+                <item
+                    android:id="@+id/In"
+                    android:title="정보통신과" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
